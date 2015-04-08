@@ -1,5 +1,6 @@
 var microtime 		= require('microtime')
 	, sprintf 		= require('sprintf').sprintf
+	, dateformat		= require('date-format-lite')
 	, fs 			= require('fs')
 	, path 			= require('path')
 	, fd			= undefined
