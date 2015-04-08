@@ -48,7 +48,7 @@ accesslog.configure = function accesslogConfigure(opt) {
  * 
  * @scope public
  */
-accesslog.logger = function log(req, res, next) {
+accesslog.logger = function log(request, response, next) {
 	var starttime =  microtime.now();
 	// from behind a proxy
 	var clientAddr = request.headers['X-Forwarded-For'];
