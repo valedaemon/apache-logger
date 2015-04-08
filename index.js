@@ -77,7 +77,7 @@ accesslog.logger = function log(request, response, next) {
   var now = new Date();
   var p0 =	sprintf("%s - %s [%s/%s/%s:%s:%s] %s", 
   		clientAddr, 
-  		username,
+  		//username,
   		now.format("DD"),
   		now.format("MMM"),
   		now.format("YYYY"),
