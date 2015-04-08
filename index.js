@@ -48,7 +48,7 @@ accesslog.configure = function accesslogConfigure(opt) {
  * 
  * @scope public
  */
-exports.accesslog.logger = function log(req, res, next) {
+accesslog.logger = function log(req, res, next) {
 	var starttime =  microtime.now();
 	// from behind a proxy
 	var clientAddr = request.headers['X-Forwarded-For'];
@@ -56,6 +56,7 @@ exports.accesslog.logger = function log(req, res, next) {
 		// direct connection
 		clientAddr = request.connection.remoteAddress;
 	}
+/*
 	// get username (if available)
 	var username = "-";
 	if(request.session && request.session.user){
@@ -65,7 +66,7 @@ exports.accesslog.logger = function log(req, res, next) {
 			username = request.session.id;
 		}	
 	}
-
+*/
   if (typeof next === 'function') {
     next();
   }
