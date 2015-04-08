@@ -1,0 +1,27 @@
+{
+  "name": "apache-logger",
+  "description": "Enable Apache-like logging in node",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=0.10.3"
+  },
+  "private": false,
+  "homepage": "https://github.com/valedaemon/apache-logger.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valedaemon/apache-logger.git"
+  },
+  "author": "JJ Johnson <tijohnsonjr@post.harvard.edu> (https://github.com/valedaemon)",
+  "main": "index.js",
+  "keywords": [
+    "log",
+    "logger",
+    "apache",
+    "access",
+    "express"
+  ],
+  "dependencies": {
+    "microtime": "~1.3.0",
+    "sprintf": "~0.1.5"
+  }
+}
