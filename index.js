@@ -11,7 +11,7 @@ var microtime 		= require('microtime')
 var accesslog = exports;
 var conf = {
 	format: 'EXTENDED',
-	directory: 'logs',
+	directory: '/logs',
 	filename: 'access.log'
 };
 
