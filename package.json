@@ -1,7 +1,7 @@
 {
   "name": "apache-logger",
   "description": "Enable Apache-like logging in node",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "engines": {
     "node": ">=0.10.3"
   },
