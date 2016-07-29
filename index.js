@@ -1,4 +1,4 @@
-var microtime 		= require('microtime')
+var microtime 		= require('microtime-nodejs')
 	, sprintf 		= require('sprintf').sprintf
 	, dateformat		= require('date-format-lite')
 	, fs 			= require('fs')
